@@ -30,37 +30,40 @@
 </header>
 <main>
     <div class="container">
+        <h3>Здесь будет домашнее задание по регулярным выражениям</h3>
         <section>
             <form action="#" onsubmit="event.preventDefault" style='width: 35% ; background-color: lightblue; padding: 15px ' >
                 <div class="form-group">
                     <label for="nameInput">Name:</label>
                     <input type="text" class='form-control' placeholder="Enter name" id='nameValid'>
+                    <img src="" alt="" class='statusValid' id='statusName'>
                 </div>
                 <div class="form-group">
                         <label for="nameInput">Email:</label>
-                        <input type="email" class='form-control' placeholder="enter@email.comWhy" id='emailValid'>
+                        <input type="email" class='form-control' placeholder="enter@email.com" id='emailValid'>
                 </div>                
                 <div class="form-group">
                         <label for="nameInput">Phone number:</label>
-                        <input type="number" class='form-control' placeholder="Enter phone number" id='phoneValid'>
+                        <input type="text" class='form-control' placeholder="+0(000)000-0000" id='phoneValid'>
                 </div>
                 <div class="form-group">
                         <label for="nameInput">Your message:</label>
                         <textarea name="" id="" cols="38" rows="6" id='textValid'></textarea>
                 </div>
-                <button class='btn ' id='btnEdit'>Validate</button>
+                <button class='btn btn-default' id='btnValid'>Validate</button>
+                <span id='validResult' style='margin-left: 10px; font-size: 1.2em '></span>
             </form>
         </section>
         <section>
-            <h3>Здесь будет домашнее задание по регулярным выражениям</h3>
             <div id="textEditor">
                 <div id="toEdit" class='form-group'>
-                    <!-- <label for="textToEdit">Input text:</label>
-                    <textarea name="" id="textToEdit" cols="100" rows="7" class='form-control'></textarea>   -->
-                    <div id="textToEdit">'Блажен человек что переносит искушение'</div>
+                    <label for="textToEdit">Input text:</label>
+                    <textarea name="" id="textToEdit" cols="50" rows="4" class='form-control'></textarea>  
+                    <!-- <div id="textToEdit">'Блажен человек что переносит искушение'</div> -->
+                    <button class='btn btn-success' style='margin: 10px' id='btnEdit'>Replace ' with "</button>
+                    <span id="editedText"></span>
                 </div>
-
-                <span id="result"></span>
+                <span id='editedText'></span>
             </div>
         </section>
            
