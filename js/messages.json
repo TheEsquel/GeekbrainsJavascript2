@@ -1,0 +1,6 @@
+[
+    {"case": "error", "message": "An erroe has occured"},
+    {"case": "success", "message": "Successful!"},
+    {"case": "error", "message": "Error again"},
+    {"case": "success", "message": "Everything is fine!"}
+]

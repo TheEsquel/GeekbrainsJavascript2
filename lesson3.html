@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Урок 3</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/lesson3PCRE.js"></script>
+</head>
+<body>
+<header>
+    <div class="container">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">Рэм учит JavaScript 2</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="lesson1.html">Урок 1</a></li>
+                    <li><a href="lesson2.html">Урок 2</a></li>
+                    <li><a href="lesson3.html">Урок 3</a></li>
+                    <li><a href="lesson4.html">Урок 4</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <section>
+            <form action="#" onsubmit="event.preventDefault" style='width: 35% ; background-color: lightblue; padding: 15px ' >
+                <div class="form-group">
+                    <label for="nameInput">Name:</label>
+                    <input type="text" class='form-control' placeholder="Enter name" id='nameValid'>
+                </div>
+                <div class="form-group">
+                        <label for="nameInput">Email:</label>
+                        <input type="email" class='form-control' placeholder="enter@email.comWhy" id='emailValid'>
+                </div>                
+                <div class="form-group">
+                        <label for="nameInput">Phone number:</label>
+                        <input type="number" class='form-control' placeholder="Enter phone number" id='phoneValid'>
+                </div>
+                <div class="form-group">
+                        <label for="nameInput">Your message:</label>
+                        <textarea name="" id="" cols="38" rows="6" id='textValid'></textarea>
+                </div>
+                <button class='btn ' id='btnEdit'>Validate</button>
+            </form>
+        </section>
+        <section>
+            <h3>Здесь будет домашнее задание по регулярным выражениям</h3>
+            <div id="textEditor">
+                <div id="toEdit" class='form-group'>
+                    <!-- <label for="textToEdit">Input text:</label>
+                    <textarea name="" id="textToEdit" cols="100" rows="7" class='form-control'></textarea>   -->
+                    <div id="textToEdit">'Блажен человек что переносит искушение'</div>
+                </div>
+
+                <span id="result"></span>
+            </div>
+        </section>
+           
+
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <hr>
+        <p>&copy; Все права защищены</p>
+    </div>
+</footer>
+
+
+</body>
+</html>
