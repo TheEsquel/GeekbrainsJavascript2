@@ -21,7 +21,6 @@ class Form {
             $('#validResult').css('color', 'green');
         }
     }
-
 }
 
 $(function(){
