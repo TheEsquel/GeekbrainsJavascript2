@@ -47,55 +47,37 @@ body {
           margin: 0 0 0 40px; }
       body main .container h3 {
         margin-top: 0; }
-      body main .container .gamesText {
+    body main .tab-pane {
+      margin: 10px; }
+    body main .tabsContent {
+      display: none; }
+      body main .tabsContent:active {
+        display: block; }
+      body main .tabsContent .gamesText {
         color: purple;
         margin: 0 10px; }
-      body main .container #gameMenu {
+      body main .tabsContent #gameMenu {
         text-align: center; }
-      body main .container #ticBoard {
+      body main .tabsContent #ticBoard {
         width: 602px;
         height: 602px;
         border: solid thin grey;
         margin: 20px auto;
         display: flex;
         flex-wrap: wrap; }
-        body main .container #ticBoard .innerCell {
+        body main .tabsContent #ticBoard .innerCell {
           width: 200px;
           height: 200px;
           border: dashed grey thin;
           text-align: center;
           vertical-align: middle;
           font-size: 7em; }
-        body main .container #ticBoard .innerCell:hover {
+        body main .tabsContent #ticBoard .innerCell:hover {
           box-shadow: 0 0 10px purple; }
-        body main .container #ticBoard .text {
+        body main .tabsContent #ticBoard .text {
           display: inline-block;
           line-height: 200px;
           vertical-align: middle; }
-    body main #gameTable {
-      width: 600px;
-      height: 600px;
-      border: 1px solid grey;
-      margin: 0 auto; }
-      body main #gameTable .tableCell {
-        width: 30px;
-        height: 30px;
-        border: dashed thin grey; }
-      body main #gameTable .snakeBody {
-        background-image: url("../img/tuktarov.jpg");
-        background-size: cover; }
-      body main #gameTable .foodUnit {
-        background-image: url("../img/samsa.png");
-        background-size: cover; }
-      body main #gameTable .obstacleUnit {
-        background-image: url("../img/dambbell.jpg");
-        background-size: cover; }
-    body main #result {
-      color: purple;
-      font-size: 1.5em;
-      text-align: center; }
-    body main #resetButton {
-      text-align: center; }
   body h1 {
     font-family: "Lato", sans-serif;
     letter-spacing: 2px; }

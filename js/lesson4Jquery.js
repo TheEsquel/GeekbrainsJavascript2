@@ -1,4 +1,6 @@
 $(function(){
-    console.log('Test');
+        $('.nav-tabs a').click(function(){
+            $(this).tab('show');
+        })
     
 });
