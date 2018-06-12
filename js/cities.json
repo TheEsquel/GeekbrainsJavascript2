@@ -1,0 +1,23 @@
+[
+  { "id" : 1 , "name" : "Moscow" },
+  { "id" : 2 , "name" : "Ufa" },
+  { "id" : 3 , "name" : "Kazan" },
+  { "id" : 4 , "name" : "Saint-Petersburg" },
+  { "id" : 5 , "name" : "Perm" },
+  { "id" : 6 , "name" : "Ekaterinburg" },
+  { "id" : 7 , "name" : "Kaliningrad" },
+  { "id" : 8 , "name" : "Vladivistok" },
+  { "id" : 9 , "name" : "Rostov" },
+  { "id" : 10 , "name" : "Novosibirsk" },
+  { "id" : 11 , "name" : "Novgorod" },
+  { "id" : 12 , "name" : "Sochi" },
+  { "id" : 13 , "name" : "Grozny" },
+  { "id" : 14 , "name" : "Uhta" },
+  { "id" : 15 , "name" : "Syktivkar" },
+  { "id" : 16 , "name" : "Izhevsk" },
+  { "id" : 17 , "name" : "Arhangelsk" },
+  { "id" : 18 , "name" : "Murmansk" },
+  { "id" : 19 , "name" : "Krasnodar" },
+  { "id" : 20 , "name" : "Krasnoyarsk" },
+  { "id" : 21 , "name" : "Samara" }
+]
