@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e7b4b73-bfb5-41c7-aa4c-52b41a7131a9" name="Default" comment="Create  cities JSON">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lesson5Bucket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lesson5Goods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lesson5Main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson5.html" />
+    <list default="true" id="3e7b4b73-bfb5-41c7-aa4c-52b41a7131a9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.sass" afterPath="$PROJECT_DIR$/css/style.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lesson3PCRE.js" afterPath="$PROJECT_DIR$/js/lesson3PCRE.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lesson4Jquery.js" afterPath="$PROJECT_DIR$/js/lesson4Jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lesson3.html" afterPath="$PROJECT_DIR$/lesson3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lesson4.html" afterPath="$PROJECT_DIR$/lesson4.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -287,12 +275,20 @@
       <workItem from="1528996771649" duration="7548000" />
       <workItem from="1529065744370" duration="646000" />
       <workItem from="1529068821733" duration="129000" />
-      <workItem from="1529069593329" duration="13426000" />
+      <workItem from="1529069593329" duration="13442000" />
     </task>
+    <task id="LOCAL-00001" summary="Create  cities JSON">
+      <created>1529152874461</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1529152874461</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175783000" />
+    <option name="totallyTimeSpent" value="175799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -323,6 +319,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create  cities JSON" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create  cities JSON" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
