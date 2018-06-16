@@ -34,6 +34,11 @@ body {
       min-height: 90vh; }
       body main .container section #ajaxGallery .galleryItem {
         margin: 10px 20px; }
+      body main .container section .autocomplete {
+        border: solid thin darkgray;
+        background: #f7f7f7;
+        cursor: default;
+        text-align: left; }
       body main .container #shop #cart {
         float: left;
         width: 250px;
