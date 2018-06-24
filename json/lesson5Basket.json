@@ -1,0 +1,10 @@
+{
+  "result": 1,
+  "basket": [
+    {
+      "id": 1,
+      "price": 500
+    }
+  ],
+  "amount": 500
+}

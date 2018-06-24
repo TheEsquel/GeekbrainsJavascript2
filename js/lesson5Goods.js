@@ -14,20 +14,24 @@ class Good {
             class: 'goodItem',
             css:{
                 border: 'thin solid darkgrey',
-                backgroundColor: 'lightgrey'
+                borderRadius: '5%',
+                width: '130px',
             }
         });
                                      //  создаем название
         let $goodTitle = $('<p />',{
            text : this.title
         });
-        let $goodPrice = $(`<p>Price<span class="goodPrice"> ${this.price}</span> </p>`);
+        let $goodPrice = $(`<p>Price<span class="goodPrice">${this.price}</span></p>`);
 
         let $goodButton = $(`<button />`,{
-            class: 'buyButton btn',
+            class: 'buyButton btn btn-primary',
             text: 'Buy',
             'data-id': this.id
+
         });
+
+
         $goodContainer.append($goodTitle);
         $goodContainer.append($goodPrice);
         $goodContainer.append($goodButton);

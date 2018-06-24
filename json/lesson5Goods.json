@@ -1,0 +1,6 @@
+[
+  {"id":1 , "title": "Computer mouse"  , "price" : 500},
+  {"id":2 , "title": "Computer keyboard"  , "price" : 700},
+  {"id":3 , "title": "Computer screen"  , "price" : 2000},
+  {"id":4 , "title": "Computer dynamic"  , "price" : 900}
+]
