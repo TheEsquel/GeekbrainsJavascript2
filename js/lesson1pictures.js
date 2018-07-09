@@ -7,7 +7,7 @@ window.onload = function(){
         btnGetImages.addEventListener('click', function () {
             if(btnGetImages.innerText === 'Show pictures'){
                 let xhr = new XMLHttpRequest();
-                xhr.open('GET', './js/pictures.json', true);
+                xhr.open('GET', './json/pictures.json', true);
                 xhr.onreadystatechange = function(){
                     if(xhr.readyState !== 4){
                         return

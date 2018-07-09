@@ -62,7 +62,7 @@ $(function(){
 
 //  функций для городов  через option
     $.ajax({
-       url:'./js/cities.json',
+       url:'./json/cities.json',
        success: function (data) {
         // $('#testCity').html(data);
            for(let i = 0;  i < data.length; i++){
@@ -77,7 +77,7 @@ $(function(){
 // функция для городов  через   input
 
     $.ajax({
-       url:'./js/cities.json',
+       url:'./json/cities.json',
        dataType: 'json',
        success: function (data) {
            for(let i = 0; i < data.length; i++){
