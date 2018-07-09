@@ -5,4 +5,4 @@ window.onload = function(){
     task1 = task1.replace('пять','четыре');
     document.getElementsByClassName('example')[0].innerHTML = task1;
 
-}
+};

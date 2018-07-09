@@ -23,7 +23,9 @@
                     <li><a href="gallery.html">Галерея</a></li>
                     <li><a href="tabs.html">Вкладки</a></li>
                     <li><a href="registration.html">Регистрация</a></li>
-                    <li><a href="shop.html">Магазин</a></li>                    
+                    <li><a href="shop.html">Магазин</a></li>
+                    <li><a href="pikabu.html">Пикабу</a></li>
+
                 </ul>
             </div>
         </nav>
@@ -37,6 +39,28 @@
             <br>
             <div class="example" id='example'>Дважды <span>два</span> - пять</div>
             <div id="test"></div>
+        </section>
+        <section >
+            <span> <b>2.</b> Вам достался следующий код. Максимально упростите его с использованием библиотеки jQuery</span>
+            <div style="display: flex; justify-content: space-around; margin-top: 15px">
+                <code>
+                    document.getElementById('x1') <br>
+                    .getElementsByTagName('div')[4] <br>
+                    .closest('#x1 > div').parentNode  <br>
+                    .childNodes[2].firstChild  <br>
+                    .querySelect('*[id="f"]')  <br>
+                    .textContent = 'Hello!';  <br>
+                </code>
+                <code>
+                    $('#x1') <br>
+                    .getElementsByTagName('div')[4] <br>
+                    .closest('#x1 > div').parentNode  <br>
+                    .childNodes[2].firstChild  <br>
+                    .querySelect('*[id="f"]')  <br>
+                    .textContent = 'Hello!';  <br>
+                </code>
+            </div>
+
         </section>
     </div>
 </main>
