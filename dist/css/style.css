@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: lavender; }
+  body header .navbar {
+    margin: 0;
+    border-radius: 0; }
+  body header .navbar-inverse .active {
+    background-color: #2b542c; }
+  body header .navbar-inverse .navbar-header a {
+    font-size: 1.4em; }
+  body .container {
+    background-color: white;
+    padding: 0; }
+    body .container h2 {
+      margin: 20px 0 20px 20px; }
+    body .container section {
+      padding: 20px;
+      border-bottom: lightgray solid; }
+      body .container section h3 {
+        margin: 15px 0; }
+      body .container section span {
+        margin-top: 5px; }
+  body main {
+    flex: 100%; }
+    body main label {
+      margin: 5px 0;
+      font-family: 'Lato', sans-serif;
+      color: #474f4e;
+      display: block; }
+    body main .container {
+      min-height: 90vh; }
+      body main .container section #ajaxGallery .galleryItem {
+        margin: 10px 20px; }
+      body main .container section .autocomplete {
+        border: solid thin darkgray;
+        background: #f7f7f7;
+        cursor: default;
+        text-align: left; }
+      body main .container .goodItem {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px; }
+      body main .container #shop #cart {
+        float: left;
+        width: 250px;
+        border-radius: 5px;
+        background-color: lightgrey;
+        padding: 10px; }
+      body main .container #productList {
+        display: flex;
+        justify-content: space-between; }
+        body main .container #productList .product {
+          margin: 0 0  0 40px; }
+      body main .container h3 {
+        margin-top: 0; }
+    body main .tab-pane {
+      margin: 10px; }
+    body main .tabsContent {
+      display: none; }
+      body main .tabsContent:active {
+        display: block; }
+      body main .tabsContent .gamesText {
+        color: purple;
+        margin: 0 10px; }
+      body main .tabsContent #gameMenu {
+        text-align: center; }
+      body main .tabsContent #ticBoard {
+        width: 602px;
+        height: 602px;
+        border: solid  thin grey;
+        margin: 20px auto;
+        display: flex;
+        flex-wrap: wrap; }
+        body main .tabsContent #ticBoard .innerCell {
+          width: 200px;
+          height: 200px;
+          border: dashed grey thin;
+          text-align: center;
+          vertical-align: middle;
+          font-size: 7em; }
+        body main .tabsContent #ticBoard .innerCell:hover {
+          box-shadow: 0 0 10px purple; }
+        body main .tabsContent #ticBoard .text {
+          display: inline-block;
+          line-height: 200px;
+          vertical-align: middle; }
+  body h1 {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px; }
+  body a {
+    font-family: "Calibri Light", serif;
+    color: #474f4e;
+    font-size: 20px;
+    text-decoration: none; }
+
+.codebox {
+  border: 1px solid black;
+  background-color: #EEEEFF;
+  width: 300px;
+  overflow: auto;
+  padding: 10px;
+  font-size: 0.9em;
+  margin: 5px 0; }
+
+#chessBoard {
+  display: flex;
+  flex-direction: column; }
+
+#chessGrid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 880px;
+  height: 880px; }
+
+.chessSquare {
+  width: 110px;
+  height: 110px;
+  text-align: center;
+  font-size: 5em; }
+
+.chessSquare:hover {
+  box-shadow: 0 0 10px purple; }
+
+.chessLetters {
+  display: flex;
+  margin: 0 auto; }
+  .chessLetters .chessLetter {
+    width: 110px;
+    height: 30px;
+    background-color: darkgrey;
+    text-align: center;
+    font-family: "Calibri Light", serif;
+    color: white;
+    font: 1.4em bold; }
+
+#chessMain {
+  display: flex;
+  margin: 0 auto; }
+
+#numbersLeft {
+  display: flex;
+  flex-direction: column; }
+
+#numbersRight {
+  display: flex;
+  flex-direction: column; }
+
+.chessNumber {
+  width: 30px;
+  height: 110px;
+  background-color: darkgrey;
+  text-align: center;
+  vertical-align: middle; }
+  .chessNumber .numberSpan {
+    font-family: "Calibri Light", serif;
+    color: white;
+    font: 1.4em bold;
+    margin-top: 10px;
+    transform: translateX(-50%) translateY(-50%) rotate(-90deg); }
+
+#gallery {
+  display: flex;
+  flex-direction: column; }
+
+#big_picture {
+  margin: 0 auto; }
+  #big_picture #big_image {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px; }
+
+#small_pictures {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around; }
+
+.preview_img {
+  width: 200px;
+  height: 200px; }
+
+#testRem {
+  width: 100px;
+  height: 100px;
+  border: solid 10px  red;
+  text-align: center;
+  display: inline; }
